@@ -16,4 +16,9 @@ class Conta:
     def getValorPagar(self):
         return self.__valor_pagar
     def getDadosConta(self):
-        pass
+        return self.__n_conta
+    def n_leit(self):
+        return self.__n_leitura
+    def data_pg(self):
+        return self.__data_pgto
+    
